@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Montserrat:wght@200&display=swap');
+body {
+    
+    background: url(img/1.png);
+    background-size: 1920px 1080px;
+    background-position: center;
+    background-repeat:  no-repeat;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 10px black;
+}
+h2{
+    text-align: center;
+    text-shadow: 1px 1px 10px black;
+}
+
+
+.for{
+    border: 1px  white solid;
+    width: 350px;
+    height: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 18pt;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 10px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.067),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.097),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.12),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.143),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.173),
+  100px 100px 80px rgba(0, 0, 0, 0.24);
+  padding: 20px;
+
+
+}
+/* 
+textarea{
+    resize: none;
+    background-color: rgba(245, 245, 220, 0);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    margin: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 240px;
+    box-shadow: 1px 1px 10px black;
+    text-align: start;
+    font-family: 'DynaPuff', cursive;
+    display: none;
+    
+
+
+
+} */
+input {
+    background-color: rgba(245, 245, 220, 0);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px black;
+    color: white;
+    font-family: 'DynaPuff', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+}
+button{
+    background-color: #7e0097;
+    border: 1px solid white;
+    color: white;
+    font-size: 15pt;
+    border-radius: 20px;
+    width: 150px;
+    font-family: 'DynaPuff', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    transition: ease-in-out 750ms;
+}
+
+button:hover{
+    transition: ease-in-out 750ms;
+    color: blue ;
+    background-color: white;
+}
+
+#b2{
+    display: none;
+    text-align: center;
+    margin: auto;
+}
+
+#c1{
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    transition: ease-in-out 750ms;
+}
+/*#c1:hover{
+    width: 350px;
+    transition: ease-in-out 750ms;
+}
+*/
+.c1{
+    margin: 0 auto;
+    text-align: center;
+}
+/* 
+font-family: 'Montserrat', sans-serif; */
+
+

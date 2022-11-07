@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Férias</title>
+    <link rel="stylesheet" href="st.css">
+    <script src="scr.js"></script>
+</head>
+<body>
+
+    <h1>Minhas Férias</h1>
+
+    <h1 >Olá, seja bem vindo(a)</h1>
+
+    <h2 id="h2">(Nome da escola)</h2>
+    <form method="post" class="for" action="1.php">
+      Seu Nome &#x1F58A; 
+      <input id="nome" name="nome" autocomplete="off"  required id="nome" type="text">     <br>
+      Sua idade &#x1F58A; 
+      <input id="idade"
+      name="idade"
+      oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+      autocomplete="off" maxlength="2" required id="idade" type="number">
+
+      <br>  
+      <!-- <textarea name="" id="txtarea" cols="30" rows="10">
+           
+    </textarea> -->
+    <br>
+  
+ 
+        <button id="b1" onclick="enviar()">Enviar</button><br>
+    </form>
+
+
+
+    
+</body>
+</html>
